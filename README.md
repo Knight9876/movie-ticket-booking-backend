@@ -4,7 +4,7 @@ Backend server for the **Movie Ticket Booking System**, built with **Node.js**, 
 
 ---
 
-## 🧩 Short Description of My Approach
+## Approach
 
 The goal was to build a simple, modular, and secure backend system for managing movies, user authentication, and seat bookings.  
 Here’s the approach I followed:
