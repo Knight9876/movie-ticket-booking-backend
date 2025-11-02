@@ -72,17 +72,21 @@ The backend should be running on http://localhost:4000
 
 Deployed on `Render` [https://www.render.com]
 
-Live Link: http://localhost:4000 [will change after deployed]
+Live Link: https://movie-ticket-booking-p8ne.onrender.com
 
 ---
 
 ## Test Credentials
 
+1. Test User 1
+
 ```bash
 Email: testuser@example.com
 Password: Test@1234
 ```
----
+
+2. Test User 2
+
 ```bash
 Email: test@test.com
 Password: testtest
@@ -94,22 +98,25 @@ Password: testtest
 
 ```bash
 backend/
-├── models/
-│   ├── User.js
-│   ├── Movie.js
-│   └── Booking.js
+├── src/
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Movie.js
+│   │   └── Booking.js
+│   │
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── movies.js
+│   │   └── bookings.js
+│   │
+│   ├── middlewares/
+│   │   └── auth.js
+│   │
+│   ├── index.js
+│   └── seed.js
 │
-├── routes/
-│   ├── auth.js
-│   ├── movies.js
-│   └── bookings.js
-│
-├── middlewares/
-│   └── auth.js
-│
-├── index.js
-├── seed.js
-├── .env
-├── .gitignore
-└── README.md
+├── .env                # Environment variables (not committed)
+├── .gitignore          # Ignored files and folders
+└── README.md           # Documentation
+
 ```
